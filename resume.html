@@ -106,7 +106,7 @@
 
 <body>
   <div class="container">
-    <h1 class="animated-title glow"> Name : Shaik Abdul Salam <span id=""></span></h1>
+    <h1 class="animated-title glow">Hi, I'm <span id="typed-name"></span></h1>
 
     <div class="section">
       <h2>Professional Summary</h2>
@@ -134,24 +134,25 @@
 
     <div class="section">
       <h2>Education</h2>
-      <p> studying Bachelor of Technology (Artificial Intelligence)  in LITAM (Loyola Institute Of Technology And Management) </p>
+      <p>Bachelor of Technology (Artificial Intelligence) in LITAM (Loyola Institute Of Technology And Management)</p>
     </div>
 
     <div class="section">
       <h2>Contact</h2>
-      <p>Email: shaiksalam876@gmail.com</p>
-      <p>Phone: +91-9014170781</p>
-      <p>LinkedIn: https://www.linkedin.com/in/shaik-salam-2626a0353</p>
+      <p>Email: youremail@example.com</p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" style="color:#00e0ff;">linkedin.com/in/yourprofile</a></p>
     </div>
-
-   
+  </div>
 
   <script>
-    new Typed('#typed-name', {
-      strings: ["Your Name", "a Web Developer", "a Code Lover", "a Fast Learner"],
-      typeSpeed: 60,
-      backSpeed: 40,
-      loop: true
+    document.addEventListener("DOMContentLoaded", function () {
+      new Typed('#typed-name', {
+        strings: ["Shaik Abdul Salam", "a Web Developer", "a Code Lover", "a Fast Learner"],
+        typeSpeed: 60,
+        backSpeed: 40,
+        loop: true
+      });
     });
   </script>
 </body>
